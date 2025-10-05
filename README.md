@@ -9,7 +9,7 @@ On this page, you can find some examples of my projects. Have fun in browsing th
 
 ---
 
-## [Project 1](https://github.com/svitlana-prasolova/PORTFOLIO/blob/main/Project%201/Project_1.Python.ipynb)
+## [Project 1](https://github.com/svitlana-prasolova/PORTFOLIO/blob/a136b624668a5e16eb1f8599c071640ea2f996a3/Projects%20Python/Project_1.Python.ipynb)
 
 # StackOverflow Developer Survey Analysis
 Data analysis of the latest StackOverflow Developer Survey using Python & Pandas. Explored trends in developers’ experience, work format, education, and compensation. Includes insights on Python usage, remote work, and global salary patterns
@@ -27,7 +27,7 @@ Data analysis of the latest StackOverflow Developer Survey using Python & Pandas
 
 --
 
-## [Project 2](https://github.com/svitlana-prasolova/PORTFOLIO/blob/main/Project%201/Project_1.Python.ipynb)
+## [Project 2] (https://github.com/svitlana-prasolova/PORTFOLIO/blob/a136b624668a5e16eb1f8599c071640ea2f996a3/Projects%20Python/Project_2%20.%20Python.ipynb)
 
 #  Applications Rating Analysis
 **Data cleaning, merging, and applicant rating calculation using Python and Pandas**
