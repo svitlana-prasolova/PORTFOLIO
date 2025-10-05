@@ -1,2 +1,4 @@
-# PORTFOLIO
-My PET projects
+# Svitlana Prasolova
+
+## 📍 About
+Hi, I'm Svitlana.
