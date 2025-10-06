@@ -9,7 +9,7 @@ On this page, you can find some examples of my projects. Have fun in browsing th
 
 ---
 
-## [Project 1](https://github.com/svitlana-prasolova/PORTFOLIO/blob/a136b624668a5e16eb1f8599c071640ea2f996a3/Projects%20Python/Project_1.Python.ipynb)
+## [Python Project 1](https://github.com/svitlana-prasolova/PORTFOLIO/blob/a136b624668a5e16eb1f8599c071640ea2f996a3/Projects%20Python/Project_1.Python.ipynb)
 
 # StackOverflow Developer Survey Analysis
 Data analysis of the latest StackOverflow Developer Survey using Python & Pandas. Explored trends in developers’ experience, work format, education, and compensation. Includes insights on Python usage, remote work, and global salary patterns
@@ -27,7 +27,7 @@ Data analysis of the latest StackOverflow Developer Survey using Python & Pandas
 
 --
 
-## [Project 2] (https://github.com/svitlana-prasolova/PORTFOLIO/blob/a136b624668a5e16eb1f8599c071640ea2f996a3/Projects%20Python/Project_2%20.%20Python.ipynb)
+## [Python Project 2] (https://github.com/svitlana-prasolova/PORTFOLIO/blob/a136b624668a5e16eb1f8599c071640ea2f996a3/Projects%20Python/Project_2%20.%20Python.ipynb)
 
 #  Applications Rating Analysis
 **Data cleaning, merging, and applicant rating calculation using Python and Pandas**
@@ -59,4 +59,41 @@ Develop a Python-based data analysis workflow to calculate and visualize applica
 - **Matplotlib / Seaborn**  
 
 
-## [Project 3](https://github.com/svitlana-prasolova/PORTFOLIO/blob/main/Project%201/Project_1.Python.ipynb)
+## [Python Project 3](https://github.com/svitlana-prasolova/PORTFOLIO/blob/e7a548a5793571f5a4ed4bbc9d9d7ace72da9a36/Projects%20Python/Project_3.%20Python.ipynb)
+# Facebook Ads Time-series & ROMI Analysis
+### Author: Svitlana Prasolova
+
+## Project Description
+Analysis of Facebook advertising performance using a Jupyter Notebook and Python (Pandas, NumPy, Matplotlib/Seaborn). The notebook loads facebook_ads_data.csv, performs daily and campaign-level aggregations, computes ROMI, visualizes trends and distributions, inspects correlations, and fits a regression between ad spend and value.
+
+## Project Task:
+Through the use of Pandas, NumPy, Matplotlib, and Seaborn, the project demonstrates how to:
+- Analyze daily advertising spend and ROMI across 2021;
+- Apply moving averages to smooth time-series data;
+- Compare campaign-level efficiency via bar charts and box plots;
+- Visualize ROMI distribution and correlation between performance metrics;
+- Build a regression model to explore the relationship between total_spend and total_value.
+The outcome is a complete analytical notebook that supports data-driven insights into Facebook Ads effectiveness and campaign optimization.
+
+## Results
+The analysis provided a clear view of advertising effectiveness:
+- Identified campaigns with the highest ROMI.
+- Visualized daily trends and seasonal patterns in advertising spend.
+- Identified strong correlations between ad spend, impressions, clicks, and total value.
+
+A complete analytical notebook that delivers data-driven insights into Facebook Ads campaign performance, helping to optimize marketing budgets and improve ROMI.
+
+## Key Skills Demonstrated
+- Data cleaning and preparation with Pandas.
+- Daily and campaign-level performance analysis.
+- ROMI calculation and time-series visualization.
+- Correlation and regression analysis (lmplot).
+- Data storytelling with Seaborn and Matplotlib.
+
+## Tools & Technologies
+- Language: Python
+- Environment: Jupyter Notebook
+- Libraries: Pandas, NumPy, Matplotlib, Seaborn
+
+
+## [SQL Project ](b)
