@@ -96,4 +96,88 @@ A complete analytical notebook that delivers data-driven insights into Facebook 
 - Libraries: Pandas, NumPy, Matplotlib, Seaborn
 
 
-## [SQL Project ](b)
+## [Project SQL Analysis](b)
+
+# Online Advertising Campaigns SQL Analysis
+### Author: Svitlana Prasolova
+
+## Project Description
+This project focuses on analyzing detailed performance data from Google Ads and Facebook Ads using SQL queries in DBeaver. The goal was to explore aggregated marketing metrics, identify the most effective campaigns and periods, and compare ad performance across platforms. The project demonstrates advanced SQL querying skills, multi-table joins, aggregations, and time-based analysis.
+
+## Project Task:
+•	Facebook Ads campaigns were more expensive but significantly more effective than Google Ads.
+•	The Expansion campaign achieved the highest conversion rates.
+•	The Hobbies campaign demonstrated the greatest increase in reach.
+•	The Narrow campaign had the longest duration but did not show strong performance.
+
+## Results
+•	Produced clear and verified SQL outputs for each analytical question.
+•	Identified performance peaks by ROMI and value across time and campaigns.
+•	Demonstrated ability to apply aggregations, grouping, date functions, and conditional logic in SQL.
+•	Delivered query results in separate files — one per task, ensuring reproducibility and clarity.
+
+## Conclusion:
+SQL queries from the project provided aggregate insights into marketing spend and ROMI dynamics. Key findings include:
+•	Facebook Ads campaigns were more expensive but significantly more effective than Google Ads.
+•	The Expansion campaign achieved the highest conversion rates.
+•	The Hobbies campaign demonstrated the greatest increase in reach.
+•	The Narrow campaign had the longest duration but did not show strong performance.
+📈 Recommendation:
+To maximize advertising efficiency and sales growth, it is advisable to increase Facebook Ads investment, especially in the Expansion and Hobbies campaigns. However, campaigns should not be overly extended, as longer duration does not correlate with better performance (as seen with the Narrow campaign).
+
+## Key Skills Demonstrated
+•	SQL (PostgreSQL): aggregations, joins, subqueries, CTEs, and date functions.
+•	Data analysis in DBeaver.
+•	Multi-source data integration (Google & Facebook Ads).
+•	Performance metrics calculation (spend, ROMI, reach, value).
+•	Analytical reporting and structured query organization.
+
+## Tools & Technologies
+- •	Environment: DBeaver
+•	Language: SQL (PostgreSQL dialect)
+•	Data sources: 
+o	facebook_ads_basic_daily
+o	google_ads_basic_daily
+o	facebook_adset
+o	facebook_campaign
+
+## [Project BigQuery Analysis](b)
+
+# eCommerce Funnel Analysis in BigQuery and GA4
+### Author: Svitlana Prasolova
+
+## Project Description
+This project explores user behavior and sales funnel performance for an eCommerce platform, based on raw event data from Google Analytics 4 (GA4). The analysis was conducted in BigQuery to extract, transform, and interpret data on events, users, and sessions.
+
+## Project Task:
+•	Creating queries to retrieve event-level data  with time formatting via TIMESTAMP_MICROS and filtering by _TABLE_SUFFIX for the year 2021.
+•	Using DISTINCT and UNNEST operators to flatten the nested structure of the event_params field (type RECORD) — converting it into a relational format for further processing.
+•	Selecting only the defined funnel events and bilding a multi-step conversion funnel from session start to purchase, segmented by date, traffic source, medium, and campaign using subqueries and CTEs.
+•	Applying filters (IN, IF) to include relevant events and prevent division by zero during conversion rate calculations.
+•	Merging user engagement and purchase data with LEFT JOIN to identify the correlation between engagement time and purchase completion.
+
+## Conclusion:
+The executed SQL scripts successfully generated clean, structured outputs, which were later used for visualization and BI reporting.
+Main findings:
+•	Only 1 in 6 visitors who started a session completed a purchase — indicating potential for funnel optimization at registration and checkout stages.
+•	Facebook Ads channels showed higher engagement rates but required cost efficiency improvements.
+•	Redesign/Accessories and Redesign/Apparel campaigns demonstrated 100% conversion from session start to purchase — likely targeting a niche VIP audience.
+•	Correlation analysis revealed an almost zero correlation between the engagement flag (is_engaged) and purchase, but a stronger correlation between total engagement time and purchase activity..
+📈 Recommendation:
+To improve overall funnel performance and boost sales, focus on simplifying user registration and checkout flow, while maintaining attention on campaigns that demonstrate strong conversion consistency (e.g., Redesign/Accessories).
+
+## Results
+•	Generated accurate and reproducible SQL outputs addressing all analytical objectives.
+•	Extracted and analyzed GA4 data to build a complete eCommerce conversion funnel.
+•	Identified top-performing campaigns and key traffic sources driving conversions.
+•	Revealed insights on user engagement, purchase behavior, and campaign efficiency
+
+## Key Skills Demonstrated
+•   SQL (BigQuery): CTEs, JOINs, aggregations, and data transformation.
+•	GA4 data extraction and event modeling.
+•	Conversion funnel and traffic source analysis.
+•	Correlation and engagement metrics evaluation.
+•	Analytical reporting and data interpretation for eCommerce insights.
+
+## Tools & Technologies
+- BigQuery | Google Analytics 4 (GA4)
