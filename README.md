@@ -27,7 +27,7 @@ Data analysis of the latest StackOverflow Developer Survey using Python & Pandas
 
 --
 
-## [Python Project 2] (https://github.com/svitlana-prasolova/PORTFOLIO/blob/a136b624668a5e16eb1f8599c071640ea2f996a3/Projects%20Python/Project_2%20.%20Python.ipynb)
+## [Python Project 2](https://github.com/svitlana-prasolova/PORTFOLIO/blob/a136b624668a5e16eb1f8599c071640ea2f996a3/Projects%20Python/Project_2%20.%20Python.ipynb)
 
 #  Applications Rating Analysis
 **Data cleaning, merging, and applicant rating calculation using Python and Pandas**
