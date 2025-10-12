@@ -96,7 +96,7 @@ A complete analytical notebook that delivers data-driven insights into Facebook 
 - Libraries: Pandas, NumPy, Matplotlib, Seaborn
 
 
-## [Project SQL Analysis](b)
+## [Project SQL Analysis](https://github.com/svitlana-prasolova/PORTFOLIO/blob/main/Projects%20SQL-BigQuery/Project%20SQL_Prasolova.sql)
 
 # Online Advertising Campaigns SQL Analysis
 ### Author: Svitlana Prasolova
@@ -141,7 +141,7 @@ o	google_ads_basic_daily
 o	facebook_adset
 o	facebook_campaign
 
-## [Project BigQuery Analysis](b)
+## [Project BigQuery Analysis](https://github.com/svitlana-prasolova/PORTFOLIO/blob/main/Projects%20SQL-BigQuery/Project%20BigQuery_Prasolova.sql)
 
 # eCommerce Funnel Analysis in BigQuery and GA4
 ### Author: Svitlana Prasolova
