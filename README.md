@@ -183,7 +183,7 @@ To improve overall funnel performance and boost sales, focus on simplifying user
 - BigQuery | Google Analytics 4 (GA4)
 
 
-## [Project A/B testing]()
+## [Project A/B testing](https://github.com/svitlana-prasolova/PORTFOLIO/blob/main/Projects%20Python/Project%20A-B%20testing.ipynb)
 
 # A/B Test — Subscription Conversion Optimization
 ### Author: Svitlana Prasolova
