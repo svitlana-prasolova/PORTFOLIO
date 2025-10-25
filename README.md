@@ -53,7 +53,7 @@ Develop a Python-based data analysis workflow to calculate and visualize applica
 - Weekly grouping & aggregation
 - Data visualization
 
-### ## 🔹 Tools & Libraries
+## 🔹 Tools & Libraries
 - **Python 3.x**  
 - **Pandas, NumPy**  
 - **Matplotlib / Seaborn**  
@@ -181,3 +181,66 @@ To improve overall funnel performance and boost sales, focus on simplifying user
 
 ## Tools & Technologies
 - BigQuery | Google Analytics 4 (GA4)
+
+
+## [Project A/B testing]()
+
+# A/B Test — Subscription Conversion Optimization
+### Author: Svitlana Prasolova
+
+## Project Description
+#### Goal: To determine whether emphasizing a “50% discount” message on the subscription screen increases purchase conversion compared to the standard $4.99 offer.
+The experiment was conducted to evaluate the impact of visual pricing cues on user conversion.
+Two user groups participated: 
+- Group A (Control): Standard $4.99 subscription screen;
+- Group B (Variant): Same $4.99 offer labeled as '50% discount'.
+
+## Project Task:
+- Design and run an A/B test on the subscription screen.
+- Compare user conversion between control (A) and variant (B) groups.
+- Evaluate statistical significance using a hypothesis test.
+- Visualize conversion rates with 95% confidence intervals.
+- Draw business conclusions and decide on rollout.
+
+### Conclusions about the A/B test results:
+#### Context:
+The goal of the A/B test was to determine whether a 50% discount (group B) affects the conversion rate of users compared to the standard price of $4.99 (group A).
+The test was conducted for 21 days: from 2023-07-03 to 2023-07-25,
+the data contains the timestamp of each event (timestamp)
+and the fact of performing the target action (conversion = 1/0).
+##### Data validity check:
+- The data type by dates was converted to datetime format, which allowed tracking the change in conversion over time.
+- The average conversion level in groups A and B was calculated for each day.
+- The visualization showed stable user activity throughout the testing period without significant gaps in the data.
+
+## Results
+The A/B test ran for 21 days (July 3–25, 2023) and revealed a significant uplift in conversion for the variant with the “50% discount” label.
+Group A: 6.10% conversion
+Group B: 8.90% conversion
+t-statistic = −7.53, p-value ≈ 0.0 → significant at α = 0.05 The discount design consistently outperformed the control version across the entire test period.
+### Key findings:
+| Metric          | Group A ($4.99)            | Group B (50% discount)                 |
+| --------------- | -------------------------- | -------------------------------------- |
+| Users           | 10,013                     | 9,985                                  |
+| Conversions     | 611                        | 889                                    |
+| Conversion Rate | **6.1%**                   | **8.9%**                               |
+| t-statistic     | −7.53                      |                                        |
+| p-value         | 0.00                       |                                        |
+| Result          | ❌ Null hypothesis rejected | ✅ Statistically significant difference |
+The introduction of a 50% discount led to a significant increase in conversions. The effect is statistically significant and stable over time.
+
+#### Recommendations:
+- Decide to implement the discount model (group B) as the main pricing policy for this user segment.
+- Conduct additional profitability analysis: although conversion has increased, it is important to check whether the increase in the number of purchases compensates for the loss of revenue due to the reduced price.
+- If necessary, test smaller discounts (for example, 30% or 20%) to find the optimal balance between sales volume and margin.
+
+## Key Skills Demonstrated
+-   A/B testing design and evaluation
+- Statistical hypothesis testing
+- Data cleaning and exploratory analysis
+- Visualization and interpretation of results
+- Business impact assessment based on data.
+
+## Tools & Libraries
+- Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy
+Statistical methods: t-test, confidence intervals, data cleaning, conversion rate analysis
