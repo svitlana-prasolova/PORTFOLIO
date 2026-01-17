@@ -244,3 +244,79 @@ The introduction of a 50% discount led to a significant increase in conversions.
 ## Tools & Libraries
 - Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy
 Statistical methods: t-test, confidence intervals, data cleaning, conversion rate analysis
+
+
+## [Project EDA](.ipynb)
+
+# Content analysis and engagement on social media
+### Author: Svitlana Prasolova
+
+## Project Description
+#### Goal: he goal of this EDA was to:
+1. Assess and improve data quality;
+2. Compare engagement across social media platforms;
+3. Identify posting time patterns;
+4. Analyze engagement distribution and trends over time.
+
+## Project #### Dataset Overview
+The dataset contains ~10,000 posts from 4 platforms:
+- platform (publishing platform)
+- created_time (date and time of post creation)
+- likes_count, comments_count, shares_count, views_count (engagement metrics)
+- text_original (post text)
+##### Based on the basic metrics, the following was calculated:
+engagement = likes + comments + shares.
+
+### Conclusion: during the verification process, the following were detected:
+- duplicate records;
+- missing values ​​(especially in text_original and views_count);
+- incorrect date format;
+- rows with empty or incorrect platform.
+#### Steps applied:
+- deleting duplicates (415);
+- casting data types (CAST to object, timestamp);
+- filtering records with empty platform;
+- creating a final “golden” table for analysis (test_sample_golden.csv).
+
+### Seasonality and synchronous peaks
+Observation: on some days peaks appear on several platforms at once
+Interpretation: influence of external factors: info drives, campaigns, events; confirms correlation between platforms
+Business conclusion: it is advisable to synchronize publications; it is advisable to use single content hubs for launches
+
+| Platform  | Role in strategy        |
+| --------- | ----------------------- |
+| TikTok    | Performance & Viral     |
+| YouTube   | Long-term awareness     |
+| Instagram | Presence & branding     |
+| Facebook  | Engagement & discussion |
+
+Key Insights
+1. TikTok shows the highest engagement with strong volatility
+2. YouTube demonstrates stable and predictable engagement patterns
+3. Instagram has high posting volume but moderate engagement
+4. Facebook has lower engagement with occasional spikes
+5. Optimal posting hours differ significantly by platform
+6. Engagement outliers have a strong impact on averages and should be analyzed separately
+
+## Business Conclusions
+- Content strategy should be platform-specific
+- TikTok is suitable for rapid testing and viral growth
+- YouTube works best for long-term brand value
+- Instagram and Facebook require optimization of formats and timing
+- Continuous data quality checks are essential for reliable analytics
+
+## Key Skills Demonstrated
+-   Data Quality Assessment and Validation
+- Data Cleaning and Preprocessing (duplicates, missing values, schema issues)
+- Dataset Standardization and Type Casting
+- Creation and Maintenance of “Golden” Datasets
+- Exploratory Data Analysis (EDA)
+- Engagement Metrics Design and Analysis
+- Time Series and Seasonality Analysis
+- Cross-Platform Data Comparison
+- Outlier Detection and Impact Analysis
+- Translating Analytical Findings into Business Insights
+
+## Tools & Libraries
+- Python, Pandas, NumPy, Seaborn, 
+- SQL & DBiver; CSV datasets
