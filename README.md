@@ -246,7 +246,7 @@ The introduction of a 50% discount led to a significant increase in conversions.
 Statistical methods: t-test, confidence intervals, data cleaning, conversion rate analysis
 
 
-## [Project EDA](.ipynb)
+## [Project EDA](https://github.com/svitlana-prasolova/PORTFOLIO/blob/main/Projects%20Python/Project%20EDA-%20Prasolova.ipynb)
 
 # Content analysis and engagement on social media
 ### Author: Svitlana Prasolova
